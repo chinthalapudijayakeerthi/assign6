@@ -14,4 +14,19 @@ public class DivisibilityCheck {
             // Calculate quotient and remainder when divided by 7
             int quotient7 = number / 7;
             int remainder7 = number % 7;
-            System.
+            System.out.println("Quotient when divided by 7: " + quotient7);
+            System.out.println("Remainder when divided by 7: " + remainder7);
+            
+            // Calculate quotient and remainder when divided by 13
+            int quotient13 = number / 13;
+            int remainder13 = number % 13;
+            System.out.println("Quotient when divided by 13: " + quotient13);
+            System.out.println("Remainder when divided by 13: " + remainder13);
+        } else {
+            System.out.println(number + " is not divisible by both 7 and 13.");
+        }
+        
+        scanner.close();
+    }
+}
+
